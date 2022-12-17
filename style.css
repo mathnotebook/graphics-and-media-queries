@@ -1,0 +1,26 @@
+svg{
+  background-color:sandybrown;
+}
+
+circle{
+  fill:azure;
+  fill-opacity: 0.5;
+  stroke:cadetblue;
+  stroke-width:5px;
+}
+
+body{
+  background:seagreen url("https://bit.ly/3h2VSOf") 20% 75% no-repeat;
+  height:100vh; /*viewport height*/
+}
+
+@media only screen and (max-width:600px){
+  body{
+    background-color:plum;
+    color:darkcyan;
+  }
+
+  h1{
+    border:solid gray 5px;
+  }
+}
